@@ -3,15 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style type="text/css">
-        #id1 {
-            color: aqua;
-           text-align:center;
-        }
-    </style>
+    <!-- add animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- index page css line -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- bootsrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- link to add tab icon -->
+    <link rel="icon" href="https://thumbs.dreamstime.com/z/portfolio-symbol-icon-portfolio-symbol-icon-white-background-illustration-186812367.jpg?w=768">
+    <!-- link for css file -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Tejas  Portfolio</title>
+    <!-- app bar -->
+    
 </head>
 <body>
-    <h1 id="id1">My Portfolio</h1>
+    <div class="navigation navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"> <span class="myname">TEJAS</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div id="blank_div"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"><span class="mymenu">Home</span> <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><span class="mymenu">About</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills"><span class="mymenu">Skills</span></a>
+            </li>
+            <li class=" nav-item">
+                <a class="nav-link" href="#project"><span class="mymenu">Projects</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact"><span class="mymenu">Contact</span></a> 
+            </li>   
+            </ul>
+
+        </div>
+      </nav>
+        </div>
+    <div class="dv" id="home">
+        <div class="info">
+            <span class="hminfo" data-aos="fade-in">Hello</span><br>
+            <span class="hminfo">My name is</span><br>
+            <span class="hmname" data-aos="zoom-in">TEJAS KHOT </span><br>
+            <span class="hminfo">I am a Full Stack Java Developer </span>
+            <div class="rsmbtn">
+              <a href="Tejas's Resume.pdf" download="Tejas's Resume.pdf">
+                  <button>RESUME</button>
+              </a>
+          </div>
+          
+        </div>
+    </div>
+    <div class="dv" id="about" align="center">
+      <h1 align="center" class="hd">ABOUT</h1>
+      <table width="95%" height="220px">
+          <tr>
+              <td width="40%" align="center" valign="top">
+                  <div>
+                      <img src="WhatsApp Image 2023-08-14 at 18.16.58.jpg" class="mydp" alt="profile pic">
+                  </div>
+              </td>
+              <td>
+                <div>
+                  <p class="co">
+                    "Seeking a Full Stack Developer position where I can leverage my knowledge and experience gained from past projects to tackle new challenges and contribute effectively to the team's objectives under the guidance of team leaders or supervisors.
+                  </p>
+                </div>
+              </td>
+          </tr>
+      </table>
+  </div>
+  <div class="dv" id="skills" align="center">
+    <h1 align="center" class="hd" id="skilltag">SKILLS</h1>
+      <div>
+        <table height ="300px" width="95%" class="tbl">
+          <tr valign="top">
+            <td width="50%">
+              <span class="skillhead">Language</span><br>
+              <p>Core JAVA, HTML, CSS, JavaScript, SQL, XML, JSON, Manual Testing</p>
+            </td>
+            <td>
+              <span class="skillhead">Tools</span><br>
+              <p>Oracle SQL, MySQL, Eclipse(Oxygen), Visual Studio Code, Postman</p>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td>
+              <span class="skillhead">API's and Frameworks</span><br>
+              <p>Collection, Strams, Date and Time, Rest, Soap, ReactJS,Hibernates,JSP, Servelts, Spring, SpringBoot, SpringCore, Spring MVC, Spring Security, Spring Core, BootStrap(4.6v)</p>
+            </td>
+            <td>
+              <span class="skillhead">Operting System</span><br>
+              <p>Windows, Linux, Ubuntu, ios, Unix, Andriod</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      </div>
+  <!-- </div>
+</div> -->
+  
+        <div class="dv" id="project" align="center">
+            <h1 align="center" class="hd">PROJECT</h1>
+            
+            <div class="card-deck">
+              <div class="card">
+                <img src="https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1600" class="card-img-top" alt="Weather-app">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="protitle">Weather App Using Flutter</span></h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small ><a href="#">Click for link</a></small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://i.ytimg.com/vi/bRZNyQtwZVE/maxresdefault.jpg" class="card-img-top" alt="Obstacle Avoiding Car.">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="protitle">Obstacle Avoiding Robot</span></h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small ><a href="#">Click for link</a></small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://img.freepik.com/premium-vector/isometric-education-course-online-studying-university-elearning-concept-vector-symbols-illustration_627510-159.jpg" class="card-img-top" alt="Student management system">
+                <div class="card-body">
+                  <h5 class="card-title"><span class="protitle">Academic Management System</span></h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small ><a href="#">Click for link</a></small></p>
+                </div>
+              </div>
+            </div>
+              
+        </div>
+        
+        <div class="dv" id="contact" align="center">
+            <h1>CONTACT</h1>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration:2000
+          });
+        </script>
+        
+    </div>
 </body>
 </html>

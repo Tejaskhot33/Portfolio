@@ -1,0 +1,215 @@
+/* google font import statement */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Roboto+Condensed&family=Rubik&display=swap');
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+.navigation-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.myname 
+{
+    font-family:'Kanit' ;
+    font-weight: bolder;
+    font-size: 30px;
+    color: hotpink;
+}
+.mymenu
+{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.mymenu:hover
+{
+    color: hotpink;
+}
+#home
+{
+    margin-top: 70px;
+}
+.dv
+{
+    height: 500px;
+    width: 100%;
+}
+.info
+{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.hminfo
+{
+    font-size:30px ;
+    color: black;
+}
+.hmname
+{
+    font-family: 'Kanit';
+    font-weight: bolder;
+    font-size: 80px;
+    color:hotpink;
+}
+html{
+
+    scroll-behavior: smooth;
+}
+#blank_div
+{
+    width: 900px;
+}
+.rsmbtn button
+{
+    height: 50px;
+    width: 130px;
+    border: ;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: hotpink;
+    font-size: 20px;
+    color: white;
+}
+.rsmbtn button:hover
+{
+    transform: scale(1.2);
+    transition-duration: 1s;
+    border: 1px soild hotpink;
+    background-color: white;
+    color: hotpink;
+}
+#home
+{
+    height: 400px;
+    width: 100vw;
+   background-image: url("https://camo.githubusercontent.com/505c2c03a5b20dcc664ce9a0dbdce638ea0a8a85fc39e613c0f4a2f545dd67b1/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3638302f302a37513379765349765f7430696f4a2d5a2e676966");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 94% -70px;
+}
+.hd
+{
+    font-size: 35px;
+    color: rgb(132, 87, 87) ;
+    font-weight: bold;
+}
+#about,#skills
+{
+    height: 400px;
+    width: 100vw;
+    background-color: #fcfcfc;
+}
+#about table{
+    margin-top: 30px;
+}
+.co
+{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: justify;
+    text-indent: 20%;
+    line-height: 36px;
+}
+#skills
+{
+    background-color: white;
+    margin-top: 30px;
+    height: 500px;
+}
+#skills table
+{
+    margin-top: 30px;
+}
+.tbl tr td 
+{
+    text-align: left;
+    padding-top: 0px;
+}
+.skillhead
+{
+    font-size: 23px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: hotpink;
+    margin-top: 30px;
+    text-decoration: underline 2px solid rosybrown;
+}
+td{
+    padding: 20px;
+}
+.tbl tr td p
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: grey;
+    font-weight: bolder;
+}
+.card-test
+{
+    color: royalblue;
+}
+.projectsss
+{
+    margin-top: 30px;
+    width: 90%;
+    height: 800px;
+}
+.protitle
+{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+}
+.protitle:hover
+{
+    color: hotpink;
+    text-decoration: underline 2px solid hotpink;
+}
+.card-test{
+    transform: scale(1.2);
+
+}
+.card:hover
+{
+    transform:  scale(1.2);
+    transition-duration: 500ms;
+    
+
+}
+
+.card-test small a{
+    
+    font-weight:  bolder;
+}
+#nextpro
+{
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+.mydp
+{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 150px;
+
+}
+.mydp:hover
+{
+    transform:  scale(1.2);
+    transition-duration: 700ms;
+    box-shadow: 0px 0px  10px black;
+}
+.hd
+{
+    height: 100px;
+}
