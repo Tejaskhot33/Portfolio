@@ -73,7 +73,6 @@ html{
 {
     height: 50px;
     width: 130px;
-    border: ;
     border-radius: 10px;
     margin: 30px;
     background-color: hotpink;
@@ -97,11 +96,13 @@ html{
     background-attachment: scroll;
     background-position: 94% -70px;
 }
-.hd
+.hd 
 {
     font-size: 35px;
     color: rgb(132, 87, 87) ;
     font-weight: bold;
+    
+    height: 100px;
 }
 #about,#skills
 {
@@ -210,7 +211,24 @@ td{
     transition-duration: 700ms;
     box-shadow: 0px 0px  10px black;
 }
-.hd
+#contact
 {
-    height: 100px;
+    margin-top: 400px;
+
+}
+.contactTD
+{
+    height:300px;
+    width: 300px;
+   
+}
+.contimg
+{
+   height: 100px;
+   width: 100px;
+}
+.contimg:hover
+{
+    transform: scale(1.5);
+    transition-duration: 500ms;
 }
