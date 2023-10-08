@@ -1,7 +1,7 @@
 /* google font import statement */
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Roboto+Condensed&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Roboto+Condensed&family=Rubik&display=swap');
 
 body {
     margin: 0px;
@@ -10,67 +10,69 @@ body {
 }
 
 .navigationbar {
+    z-index: 5;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    
+
 }
-.myname 
-{
-    font-family:'Kanit' ;
+
+.myname {
+    font-family: 'Kanit';
     font-weight: bolder;
     font-size: 30px;
     color: hotpink;
 }
-.mymenu
-{
+
+.mymenu {
     text-transform: uppercase;
     color: black;
     font-weight: bolder;
     font-size: 20px;
     letter-spacing: 1.5px;
 }
-.mymenu:hover
-{
+
+.mymenu:hover {
     color: hotpink;
 }
-#home
-{
+
+#home {
     margin-top: 70px;
 }
-.dv
-{
+
+.dv {
     height: 500px;
     width: 100%;
 }
-.info
-{
+
+.info {
     margin-top: 10%;
     margin-left: 5%;
 }
-.hminfo
-{
-    font-size:30px ;
+
+.hminfo {
+    font-size: 30px;
     color: black;
 }
-.hmname
-{
-    font-family: 'Kanit';
+
+.hmname {
+    3 font-family: 'Kanit';
     font-weight: bolder;
     font-size: 80px;
-    color:hotpink;
+    color: hotpink;
 }
-html{
+
+html {
 
     scroll-behavior: smooth;
 }
-#blank_div
-{
+
+#blank_div {
     width: 900px;
 }
-.rsmbtn button
-{
+
+.rsmbtn button {
     height: 50px;
     width: 130px;
     border-radius: 10px;
@@ -79,65 +81,67 @@ html{
     font-size: 20px;
     color: white;
 }
-.rsmbtn button:hover
-{
+
+.rsmbtn button:hover {
     transform: scale(1.2);
     transition-duration: 1s;
     border: 1px soild hotpink;
     background-color: white;
     color: hotpink;
 }
-#home
-{
+
+#home {
     height: 400px;
     width: 100vw;
-   background-image: url("https://camo.githubusercontent.com/505c2c03a5b20dcc664ce9a0dbdce638ea0a8a85fc39e613c0f4a2f545dd67b1/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3638302f302a37513379765349765f7430696f4a2d5a2e676966");
+    background-image: url("https://camo.githubusercontent.com/505c2c03a5b20dcc664ce9a0dbdce638ea0a8a85fc39e613c0f4a2f545dd67b1/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3638302f302a37513379765349765f7430696f4a2d5a2e676966");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 94% -70px;
 }
-.hd 
-{
+
+.hd {
     font-size: 35px;
-    color: rgb(132, 87, 87) ;
+    color: rgb(132, 87, 87);
     font-weight: bold;
-    
+
     height: 100px;
 }
-#about,#skills
-{
+
+#about,
+#skills {
     height: 400px;
     width: 100vw;
     background-color: #fcfcfc;
 }
-#about table{
+
+#about table {
     margin-top: 30px;
 }
-.co
-{
+
+.co {
     font-size: 20px;
     font-weight: bolder;
     text-align: justify;
     text-indent: 20%;
     line-height: 36px;
 }
-#skills
-{
+
+#skills {
     background-color: white;
     margin-top: 30px;
     height: 500px;
 }
-#skills table
-{
+
+#skills table {
     margin-top: 30px;
 }
-.tbl tr td 
-{
+
+.tbl tr td {
     text-align: left;
     padding-top: 0px;
 }
-.skillhead
-{
+
+.skillhead {
     font-size: 23px;
     font-weight: bolder;
     font-variant: small-caps;
@@ -145,90 +149,92 @@ html{
     margin-top: 30px;
     text-decoration: underline 2px solid rosybrown;
 }
-td{
+
+td {
     padding: 20px;
 }
-.tbl tr td p
-{
+
+.tbl tr td p {
     font-size: 20px;
     margin-top: 20px;
     color: grey;
     font-weight: bolder;
 }
-.card-test
-{
+
+.card-test {
     color: royalblue;
 }
-.projectsss
-{
+
+.projectsss {
     margin-top: 30px;
     width: 90%;
     height: 800px;
 }
-.protitle
-{
+
+.protitle {
     font-size: 23px;
     font-weight: bolder;
     color: black;
 }
-.protitle:hover
-{
+
+.protitle:hover {
     color: hotpink;
     text-decoration: underline 2px solid hotpink;
 }
-.card-test{
+
+.card-test {
     transform: scale(1.2);
 
 }
-.card:hover
-{
-    transform:  scale(1.2);
+
+.card:hover {
+    transform: scale(1.2);
     transition-duration: 500ms;
-    
+
 
 }
 
-.card-test small a{
-    
-    font-weight:  bolder;
+.card-test small a {
+
+    font-weight: bolder;
 }
-#nextpro
-{
+
+#nextpro {
     margin-top: 20px;
     transition-duration: 1s;
 }
-.mydp
-{
+
+.mydp {
     height: 300px;
     width: 300px;
     margin-top: 10px;
     border-radius: 150px;
 
 }
-.mydp:hover
-{
-    transform:  scale(1.2);
+
+.mydp:hover {
+    transform: scale(1.2);
     transition-duration: 700ms;
-    box-shadow: 0px 0px  10px black;
+    box-shadow: 0px 0px 10px black;
 }
-#contact
-{
+
+#contact {
     margin-top: 400px;
 
 }
-.contactTD
-{
-    height:300px;
+
+.contactTD {
+    height: 300px;
     width: 300px;
-   
+
 }
-.contimg
-{
-   height: 100px;
-   width: 100px;
+
+.contimg {
+    height: 100px;
+    width: 100px;
 }
-.contimg:hover
-{
+
+.contimg:hover {
     transform: scale(1.5);
     transition-duration: 500ms;
 }
