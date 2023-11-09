@@ -38,15 +38,16 @@ body {
 }
 
 #home {
-    margin-top: 70px;
+    margin-top: 70px;;
 }
 
 .dv {
-    height: 500px;
+    height: 100px;
     width: 100%;
 }
 
 .info {
+    height: 100px;
     margin-top: 10%;
     margin-left: 5%;
 }
@@ -57,7 +58,7 @@ body {
 }
 
 .hmname {
-    3 font-family: 'Kanit';
+    font-family: 'Kanit';
     font-weight: bolder;
     font-size: 80px;
     color: hotpink;
@@ -100,18 +101,18 @@ html {
 }
 
 .hd {
+    margin-top: 150px;
     font-size: 35px;
     color: rgb(132, 87, 87);
     font-weight: bold;
-
     height: 100px;
 }
 
 #about,
-#skills {
-    height: 400px;
+#skills{
+    height: 500px;
     width: 100vw;
-    background-color: #fcfcfc;
+    background-color: #faf8f8;
 }
 
 #about table {
@@ -219,7 +220,7 @@ td {
 }
 
 #contact {
-    margin-top: 400px;
+    margin-top: 1000px;
 
 }
 
@@ -237,4 +238,9 @@ td {
 .contimg:hover {
     transform: scale(1.5);
     transition-duration: 500ms;
+}
+
+.hello {
+    height: 800px;
+    width: 900px;
 }
